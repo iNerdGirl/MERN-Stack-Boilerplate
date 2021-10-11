@@ -3,17 +3,24 @@
   "version": "0.1.0",
   "description": "MERN Stack Example",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/iNerdGirl/MERN-Stack-Boilerplate.git"
+    "url": "git+ssh://git@github.com/iNerdGirl/MERN-Stack-Boilerplate-Backend.git"
   },
   "author": "Autumn Raine",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/iNerdGirl/MERN-Stack-Boilerplate/issues"
   },
-  "homepage": "https://github.com/iNerdGirl/MERN-Stack-Boilerplate#readme"
+  "homepage": "https://github.com/iNerdGirl/MERN-Stack-Boilerplate#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3"
+  }
 }
